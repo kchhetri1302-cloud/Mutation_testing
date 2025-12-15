@@ -1,0 +1,189 @@
+{
+  "single_int": {
+    "probe": [
+      "5"
+    ],
+    "file": "single_int.txt",
+    "description": "Single integer input"
+  },
+  "single_float": {
+    "probe": [
+      "3.14"
+    ],
+    "file": "single_float.txt",
+    "description": "Single float input"
+  },
+  "single_string": {
+    "probe": [
+      "hello"
+    ],
+    "file": "single_string.txt",
+    "description": "Single string input"
+  },
+  "two_ints": {
+    "probe": [
+      "10",
+      "5"
+    ],
+    "file": "two_ints.txt",
+    "description": "Two integer inputs"
+  },
+  "two_floats": {
+    "probe": [
+      "3.14",
+      "2.71"
+    ],
+    "file": "two_floats.txt",
+    "description": "Two float inputs"
+  },
+  "three_ints": {
+    "probe": [
+      "10",
+      "5",
+      "3"
+    ],
+    "file": "three_ints.txt",
+    "description": "Three integer inputs"
+  },
+  "count_then_ints": {
+    "probe": [
+      "3",
+      "10",
+      "20",
+      "30"
+    ],
+    "file": "count_then_ints.txt",
+    "description": "First input is count, then N integer values"
+  },
+  "count_then_floats": {
+    "probe": [
+      "3",
+      "1.5",
+      "2.5",
+      "3.5"
+    ],
+    "file": "count_then_floats.txt",
+    "description": "First input is count, then N float values"
+  },
+  "count_ints_extra1": {
+    "probe": [
+      "3",
+      "10",
+      "20",
+      "30",
+      "2"
+    ],
+    "file": "count_ints_extra1.txt",
+    "description": "Count + N ints + 1 extra (e.g., index query)"
+  },
+  "multi_strings": {
+    "probe": [
+      "hello",
+      "world",
+      "test"
+    ],
+    "file": "multi_strings.txt",
+    "description": "Multiple string inputs"
+  },
+  "matrix_input": {
+    "probe": [
+      "2",
+      "2",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "file": "matrix_input.txt",
+    "description": "Matrix input (rows, cols, then values)"
+  },
+  "zero_and_positive": {
+    "probe": [
+      "0",
+      "5"
+    ],
+    "file": "zero_and_positive.txt",
+    "description": "Zero and positive integer"
+  },
+  "negative_and_positive": {
+    "probe": [
+      "-4",
+      "2"
+    ],
+    "file": "negative_and_positive.txt",
+    "description": "Negative and positive integer"
+  },
+  "two_zeros": {
+    "probe": [
+      "0",
+      "0"
+    ],
+    "file": "two_zeros.txt",
+    "description": "Both inputs are zero"
+  },
+  "divide_by_zero": {
+    "probe": [
+      "10",
+      "0"
+    ],
+    "file": "divide_by_zero.txt",
+    "description": "Division by zero test"
+  },
+  "float_division": {
+    "probe": [
+      "5",
+      "2"
+    ],
+    "file": "float_division.txt",
+    "description": "Division that produces float result"
+  },
+  "even_number": {
+    "probe": [
+      "4"
+    ],
+    "file": "even_number.txt",
+    "description": "Even integer for is_even test"
+  },
+  "odd_number": {
+    "probe": [
+      "7"
+    ],
+    "file": "odd_number.txt",
+    "description": "Odd integer for is_even test"
+  },
+  "negative_even": {
+    "probe": [
+      "-6"
+    ],
+    "file": "negative_even.txt",
+    "description": "Negative even integer"
+  },
+  "factorial_zero": {
+    "probe": [
+      "0"
+    ],
+    "file": "factorial_zero.txt",
+    "description": "Factorial of 0 (edge case = 1)"
+  },
+  "factorial_one": {
+    "probe": [
+      "1"
+    ],
+    "file": "factorial_one.txt",
+    "description": "Factorial of 1"
+  },
+  "factorial_positive": {
+    "probe": [
+      "5"
+    ],
+    "file": "factorial_positive.txt",
+    "description": "Factorial of positive integer"
+  },
+  "factorial_negative": {
+    "probe": [
+      "-3"
+    ],
+    "file": "factorial_negative.txt",
+    "description": "Factorial of negative (should error)"
+  }
+}
